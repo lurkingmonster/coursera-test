@@ -10,8 +10,10 @@
             color: blueviolet;
         }
 
-        .msg2 {
+       a:link,
+        a:visited {
             border: solid;
+            text-decoration: none;
             border-color: black;
             border-radius: 8px;
             padding: 20px 10px;
@@ -21,14 +23,19 @@
             color: rgb(11, 225, 29);
         }
 
-        .msg2:hover {
+        .msg2 a:hover {
+            border: solid;
+            border-color: black;
+            border-radius: 8px;
+            padding: 20px 10px;
+            display: inline-block;
             text-decoration: underline;
             cursor: pointer;
             color: rgb(201, 31, 31);
             background-color: chartreuse;
         }
 
-        .msg2:active {
+        .msg2 a:active {
             text-decoration: underline;
             cursor: pointer;
             color: rgb(201, 31, 31);

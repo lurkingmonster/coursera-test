@@ -2,23 +2,60 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello Coursera!</title>
-	<style>
-		.msg {text-align: center;
-		color: aqua;}
-	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Coursera!</title>
+    <style>
+        body>a {
+            color: blueviolet;
+        }
+
+        .msg2 {
+            border: solid;
+            border-color: black;
+            border-radius: 8px;
+            padding: 20px 10px;
+            text-align: center;
+            display: inline-block;
+            background-color: aqua;
+            color: rgb(11, 225, 29);
+        }
+
+        .msg2:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            color: rgb(201, 31, 31);
+            background-color: chartreuse;
+        }
+
+        .msg2:active {
+            text-decoration: underline;
+            cursor: pointer;
+            color: rgb(201, 31, 31);
+            background-color: chartreuse;
+        }
+
+        .msg3 {
+            color: rgb(6, 6, 6);
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 2px 3px 10px rgb(23, 182, 25);
+        }
+    </style>
 </head>
 
 <body>
-	<h1 class="msg">Hey King, now its time for styling</h1>
-	<br>
-	<h2>Let's Begin</h2>
-	<br>
-	We are now syncd to Browser Sync but typing with VS code
-	<br>
-	<h3>VS code rocks</h3>
+    <h1 class="msg">Hey King, now its time for styling</h1>
+    <br>
+    <h2 class="msg2">
+        <a href="https://www.google.com" target="_blank">Let's Begin</a>
+    </h2>
+    <br>
+    <a>We are now syncd to Browser Sync but typing with VS code</a>
+    <br>
+    <h3 class="msg3">
+        <div>VS code rocks</div>
+    </h3>
 </body>
 
 </html>

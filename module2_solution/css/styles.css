@@ -19,7 +19,7 @@ h1 {
     padding-left: 25px;
     padding-right: 25px;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 .title2 {
@@ -30,7 +30,7 @@ h1 {
     padding-left: 25px;
     padding-right: 25px;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 .title3 {
@@ -41,7 +41,7 @@ h1 {
     padding-left: 25px;
     padding-right: 25px;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 p {
@@ -49,7 +49,7 @@ p {
     margin-right: auto;
     margin-left: auto;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    font-size: 15px;
+    font-size: 100%;
     color: white;
 }
 

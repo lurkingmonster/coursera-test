@@ -1,0 +1,20 @@
+body {
+    font-size: 16px;
+    color: rgb(13, 226, 5);
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.container h1 {
+    text-decoration: underline;
+    color: rgb(250, 237, 57);
+}
+
+#navbarCollapse {
+    background-color: rgb(80, 80, 80);
+}
+
+#border {
+    border: dashed 1px rgb(13, 226, 5);
+    ;
+}

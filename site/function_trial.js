@@ -44,16 +44,29 @@ console.log(doubleAll(6));
 
 
 // // Passing functions as arguments
-function doOperationOn(y, mySet) {
-    return mySet(y);
+function doOperationOn(x, operation) {
+    return operation(x);
 }
 
 doOperationOn.version = "v.3(Passing functions as arguments)";
 console.log(doOperationOn.version);
 
-var result = doOperationOn(5, multiplyBy3 );
+var result = doOperationOn(5, multiplyBy3);
 console.log(result);
 result = doOperationOn(100, doubleAll);
 console.log(result);
 
 
+// function submitText() {
+//     var textVal = document.getElementById("txtarea").value;
+  
+//     textVal = textVal.split('\n');
+  
+//     if (textVal.length > 0) {
+//       for (const element of textVal) {
+//         console.log(element);
+//         window.open(element, "_blank");
+//       }
+  
+//     }
+//   }
